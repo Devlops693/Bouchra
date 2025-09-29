@@ -1,0 +1,251 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  background: #f5f2f0;
+  color: #2c2528;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(122,46,76,0.55);
+  height: 60px;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+
+nav {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.logo {
+  font-family: 'Great Vibes', cursive;
+  color: #ffffff;
+  font-size: 1.9rem;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover { color: #7a2e4d; }
+
+main { 
+    padding-top: 90px; 
+}
+
+h2 {
+  font-family: 'Great Vibes', cursive;
+  color: #7a2e4d;
+  text-align: center;
+  font-size: 2rem;
+  margin: 36px 0 10px;
+}
+
+h3 {
+    color: #7a2e4d;
+}
+
+.intro, .texte {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 18px;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.parallax { 
+    height: 350px; 
+    background-attachment: fixed; 
+    background-size: cover; 
+    background-position: center; 
+} 
+
+.parallax.one { 
+    background-image: url("images/one.jpg"); 
+} 
+
+.parallax.two { 
+    background-image: url("images/two.jpg"); 
+}
+
+
+.citation {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 26px 18px;
+  text-align: center;
+  background: rgba(255,255,255,0.6);
+  border-left: 4px solid #7a2e4d;
+  border-right: 4px solid #7a2e4d;
+  border-radius: 8px;
+  font-style: italic;
+}
+
+.citation blockquote {
+  font-family: 'Great Vibes', cursive;
+  color: #7a2e4d;
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+.citation figcaption {
+  margin-top: 10px;
+  font-style: normal;
+  color: #2c2528;
+  font-size: 0.95rem;
+}
+
+
+.bouton {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.btn {
+  background: #fff;             
+  color: #7a2e4d;               
+  padding: 10px 22px;
+  border-radius: 10px;
+  text-decoration: none;
+  border: 1px solid #e7d3d3;
+  font-weight: 600;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+}
+
+.btn:hover {
+  background: #7a2e4d;
+  color: #e7d3d3;
+}
+
+
+.tab {
+  margin: 30px auto 10px;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  position: relative;
+  padding: 20px;
+}
+
+
+.tab:before {
+  content: "";
+  position: absolute;
+  left: 45%;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: #7a2e4d;
+  border-radius: 2px;
+}
+
+
+.tab-item {
+  width: 45%;
+  text-align: center;
+  position: relative;
+}
+
+
+.tab-item img {
+  width: 150px;  
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  margin: 10px auto;
+}
+
+
+.projects {
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.project-card {
+  background: #fff;
+  padding: 16px;
+  border-radius: 10px;
+  width: 240px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+
+.contact-section {
+  margin: 30px auto;
+  padding: 0 18px;
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+
+.contact-image img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #7a2e4d;
+  display: block;
+}
+
+
+.contact-formulaire {
+  flex: 1;
+  min-width: 280px;
+}
+
+.contact-formulaire form {
+  width: 100%;
+  border: 2px solid #7a2e4d;
+  padding: 16px;
+  border-radius: 10px;
+  background: #fff;
+  box-sizing: border-box;
+}
+
+.contact-formulaire input,
+.contact-formulaire textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid #e7d3d3;
+  box-sizing: border-box;
+}
+
+
+footer {
+  background: #7a2e4d;
+  color: #fff;
+  padding: 14px 10px;
+  text-align: center;
+  margin-top: 30px;
+}
+
